@@ -10,3 +10,31 @@ h5,
 h6 {
   font-family: "Libre Baskerville", serif;
 }
+
+.hero {
+  text-align: center;
+  margin-top: 50px;
+  & h1 {
+    font-size: 60px;
+  }
+
+  & h6 {
+    font-size: 30px;
+  }
+
+  & p {
+    font-size: 20px;
+  }
+}
+
+.btn-branding {
+  background-color: #e881a0;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+
+  &:hover {
+    border: 1px solid #e881a0;
+    color: #e881a0;
+  }
+}
