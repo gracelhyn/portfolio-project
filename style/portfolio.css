@@ -63,3 +63,27 @@ h6 {
   text-align: center;
   margin-top: 50px;
 }
+
+.fa-html5 {
+  color: #eb6217;
+}
+
+.fa-css3-alt {
+  color: #3996d1;
+}
+
+.fa-square-js {
+  color: #e9b921;
+}
+
+.fa-github {
+  color: #102939;
+}
+
+.fa-bootstrap {
+  color: #7533f9;
+}
+
+.fa-php {
+  color: #7377ad;
+}
