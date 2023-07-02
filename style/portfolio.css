@@ -43,12 +43,12 @@ h6 {
   }
 }
 
-.about-section {
+.hp-about-section {
   text-align: center;
   margin-top: 100px;
 }
 
-.skills-section {
+.hp-skills-section {
   text-align: center;
   margin-top: 100px;
 }
@@ -86,4 +86,27 @@ h6 {
 
 .fa-php {
   color: #7377ad;
+}
+
+.about-section {
+  text-align: center;
+  margin-top: 50px;
+  & h1 {
+    font-size: 60px;
+  }
+}
+
+.skills-section {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.experience-section {
+  /* text-align: center; */
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+  & h6 {
+    margin: 0 auto;
+  }
 }
