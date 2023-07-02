@@ -1,3 +1,6 @@
+:root {
+  --brand-color: #e881a0;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -23,18 +26,40 @@ h6 {
   }
 
   & p {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
 .btn-branding {
-  background-color: #e881a0;
+  background-color: var(--brand-color);
   color: white;
   padding: 10px 30px;
   border-radius: 50px;
+  margin-top: 10px;
 
   &:hover {
-    border: 1px solid #e881a0;
-    color: #e881a0;
+    border: 1px solid var(--brand-color);
+    color: var(--brand-color);
   }
+}
+
+.about-section {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.skills-section {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.work-section {
+  /* text-align: center; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.see-more {
+  text-align: center;
+  margin-top: 50px;
 }
