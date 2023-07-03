@@ -51,6 +51,29 @@ h6 {
 .hp-skills-section {
   text-align: center;
   margin-top: 100px;
+  & .fa-html5 {
+    color: #eb6217;
+  }
+
+  & .fa-css3-alt {
+    color: #3996d1;
+  }
+
+  & .fa-square-js {
+    color: #e9b921;
+  }
+
+  & .fa-github {
+    color: #102939;
+  }
+
+  & .fa-bootstrap {
+    color: #7533f9;
+  }
+
+  & .fa-php {
+    color: #7377ad;
+  }
 }
 
 .see-more {
@@ -58,41 +81,21 @@ h6 {
   margin-top: 50px;
 }
 
-.fa-html5 {
-  color: #eb6217;
-}
-
-.fa-css3-alt {
-  color: #3996d1;
-}
-
-.fa-square-js {
-  color: #e9b921;
-}
-
-.fa-github {
-  color: #102939;
-}
-
-.fa-bootstrap {
-  color: #7533f9;
-}
-
-.fa-php {
-  color: #7377ad;
-}
-
-.fa-envelope {
-  color: #d64135;
+/* .fa-envelope {
+  color: var(--brand-color);
 }
 
 .fa-linkedin {
-  color: #0a63bc;
+  color: var(--brand-color);
 }
 
 .fa-instagram {
-  color: #d42e77;
+  color: var(--brand-color);
 }
+
+.fa-github {
+  color: var(--brand-color);
+} */
 
 .about-section {
   text-align: center;
@@ -141,4 +144,40 @@ h6 {
 .socials-section {
   text-align: center;
   margin-top: 50px;
+}
+
+footer {
+  margin: 60px 0;
+  display: block;
+}
+
+footer .email-link a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  font-weight: bolder;
+
+  &:hover {
+    color: var(--brand-color);
+  }
+}
+
+footer .social-links a {
+  margin: 0 15px;
+  color: var(--brand-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  background-color: #f9edf0;
+  transition: all 150ms ease-in-out;
+
+  &:hover {
+    color: white;
+    background-color: var(--brand-color);
+  }
+}
+
+footer .contact-box {
+  background-color: #f9edf0;
+  padding: 30px 120px;
+  margin-bottom: 40px;
 }
