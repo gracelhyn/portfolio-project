@@ -88,6 +88,18 @@ h6 {
   color: #7377ad;
 }
 
+.fa-envelope {
+  color: #d64135;
+}
+
+.fa-linkedin {
+  color: #0a63bc;
+}
+
+.fa-instagram {
+  color: #d42e77;
+}
+
 .about-section {
   text-align: center;
   margin-top: 50px;
@@ -116,4 +128,17 @@ h6 {
     margin-left: 70px;
     font-size: 50px;
   }
+}
+
+.contact-section {
+  text-align: center;
+  margin-top: 50px;
+  & h1 {
+    font-size: 60px;
+  }
+}
+
+.socials-section {
+  text-align: center;
+  margin-top: 50px;
 }
